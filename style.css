@@ -1,11 +1,11 @@
 @font-face {
     font-family:fraunces_variablefont;
-    src: url(Fraunces/fraunces_variablefont.ttf)
+    src: url(fraunces_variablefont.ttf)
 }
 
 @font-face {
     font-family:fraunces-italic-variable;
-    src: url(Fraunces/fraunces-italic-variable.ttf)
+    src: url(fraunces-italic-variable.ttf)
 }
 
 * {
