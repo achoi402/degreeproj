@@ -1,0 +1,8 @@
+@font-face {
+    font-family:fraunces_variablefont;
+    src: url(fraunces_variablefont.ttf)
+}
+
+* {
+    font-family: fraunces_variablefont;
+}
