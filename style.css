@@ -1,0 +1,90 @@
+@font-face {
+    font-family:fraunces_variablefont;
+    src: url(Fraunces/fraunces_variablefont.ttf)
+}
+
+@font-face {
+    font-family:fraunces-italic-variable;
+    src: url(Fraunces/fraunces-italic-variable.ttf)
+}
+
+* {
+    font-family: fraunces_variablefont, Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: auto;
+}
+
+h1 {
+    color:#00ae42;
+    font-family: fraunces-italic-variable;
+    font-weight: 400;
+    padding: 2%;
+
+}
+
+
+
+.text-container {
+    display: flex;
+    align-items: center;
+    
+    color: white;
+    font-size: 23px;
+}
+
+.orange-text {
+    width: 30vw;
+    height: 13vh;
+    overflow: scroll;
+    position: relative;
+    left:12vw;
+    top: 35vh;
+    z-index: 3;
+
+    display:inline;
+    line-height: 1.5;
+
+}
+
+.purple-text {
+    width: 30vw;
+    height: 12vh;;
+    overflow: auto;
+    position: relative;
+    left: 31vw;
+    top: 35vh;
+    z-index: 3;
+
+    display:inline;
+    line-height: 1.5;
+
+}
+
+.circle-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:center;
+}
+
+.orange {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    background-color: #ffcc8b;
+    filter: blur(1em);
+    margin: auto;
+    position: relative;
+    top: -10vh;
+}
+
+.purple {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    background-color: lavender;
+    filter: blur(1em);
+    margin: auto;
+    position: relative;
+    top: -10vh;
+}
+
