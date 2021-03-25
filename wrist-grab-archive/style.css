@@ -3,6 +3,24 @@
     src: url(fraunces_variablefont.ttf)
 }
 
+
+
 * {
     font-family: fraunces_variablefont;
 }
+
+#draggable1 { 
+    display: flex;
+    width: 30vw; 
+    height: 35vh; 
+    background-color: lavender;
+    text-align: center;
+    font-size: 30px;
+}
+
+#draggable1:hover {
+    background-image: url(images/animewristgrab1.jpeg)
+
+}
+
+
